@@ -45,6 +45,7 @@ cargo contract new erc20contract
 cargo +nightly test
 
 ## Build
+
 ### Generate WASM
 cargo +nightly contract build
 ### Generate Metadata
