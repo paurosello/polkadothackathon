@@ -50,3 +50,17 @@ cargo +nightly test
 cargo +nightly contract build
 ### Generate Metadata
 cargo +nightly contract generate-metadata
+
+# Frontend
+
+https://github.com/substrate-developer-hub/substrate-front-end-template
+
+## Dependencies
+yarn install
+
+## Build
+yarn build
+
+##
+Go to the build folder and start web server
+python2.7 -m SimpleHTTPServer 3000
